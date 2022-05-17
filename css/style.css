@@ -16,33 +16,47 @@ section {
     overflow: hidden;
 }
 
-.header {
-    overflow: hidden;
-    position: absolute;
+.navbar {
+    direction: rtl;
+    background-color: trl;  
     width: 100%;
-    margin: auto;
-    padding: 10px 100px;
-    background-color: transparent;  
+    z-index: 1;
+
 }
 
-.link-div {
-    display: inline-flex;
-    direction: rtl;
+.navbar-brand {
+    position: absolute;
+    margin-right: 100px;
+    top: -40px;
+}
+
+.img-logo {
+    width: 150px;
+    height: 150px;
+}
+
+.navbar-nav {
+    margin-right: 500px;
+    position: absolute;
+    top: 25px;
+}
+
+.nav-item {
+    padding: 0 20px;
 }
 
 .nav-link {
-    float: inline-end;
     color: #434343;
-    padding: 25px;
-    text-decoration: none;
     font-size: 18px; 
-    line-height: 25px;
+
 }
 
 .nav-link:hover,
 .nav-link:focus {
     color: #F07F1A;
 }
+
+
 
 .img-div {
     height: 100%;
