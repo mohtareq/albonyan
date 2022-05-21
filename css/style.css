@@ -42,21 +42,20 @@ body {
     border-top: 2px solid #F07F1A;
 }
 
+.intro {
+    background: #bcbfc22a;
+}
+
 .intro-sec {
     width: 100%;
     height: 100vh;
-    position: relative;
-}
-
-.intro-info {
-    position: relative;
-    top: 180px;
-    color: #434343;    
+    display: flex;
+    align-items: center;
 }
 
 .info-one {
     font-size: 36px;
-    color: #F07F1A;
+    color: #22274E;;
 }
 
 .info-two,
@@ -88,14 +87,13 @@ body {
 
 .img-header {
     position: relative;
-    top: 50px;
     text-align: left;
 }
 
 .img-one {
     width: 390px;
     height: 390px;
-    margin-right: 100px;
+    margin: -100px 100px 0 0;
 }
 
 .back-color-header {
@@ -103,17 +101,17 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    margin-top: -250px;
+    margin-top: -260px;
     margin-right: 140px;
     z-index: -1;
 }
 
 .social-div {
     position: relative;
-    top: 220px;
-    right: 110px;
+    top: 50px;
+    right: 100px;
     display: grid;
-    height: 230px;
+    height: 270px;
 }
 
 .icon {
@@ -133,22 +131,23 @@ body {
 }
 
 .about-sec {
-    padding-top: 100px;
     width: 100%;
     height: 100vh;
-    position: relative;
+    display: flex;
+    align-items: center;
+
 }
 
 .about-info {
     color: #434343; 
-    padding-top: 45px;
+    padding-top: 30px;
 }
 
 .about-one {
-    font-size: 36px;
-    color: #F07F1A;
-    border-bottom: 5px solid #F07F1A;
-    width: 150px;
+    font-size: 30px;
+    color: #22274E;
+    border-bottom: 3px solid #22274E;
+    width: 110px;
 }
 
 .img-about {
@@ -157,8 +156,8 @@ body {
 }
 
 .img-two {
-    width: 360px;
-    height: 360px;
+    width: 330px;
+    height: 330px;
     margin-right: 120px;
 }
 
@@ -172,25 +171,52 @@ body {
     z-index: -1;
 }
 
+.services-sec {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background: #bcbfc22a;
+    padding: 30px 0;
+        display: flex;
+    align-items: center;
+}
 
 
+.services-info {
+    text-align: center;
+}
 
+.services-one {
+    font-size: 30px;
+    color: #22274E;
+    border-bottom: 3px solid #22274E;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+}
 
+.services-two {
+    font-size: 26px;
+    width: 75%;
+    margin: auto;
+}
 
+.boxes {
+    margin: 50px auto;
+}
 
+.box {
+    padding: 80px 10px;
+    border: 1px dashed #22274E;
+    border-radius: 25%;  
+    box-shadow: 0px 6px 36px #0000001A;
+    opacity: 1;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.service-topic {
+    font-size: 26px;
+}
 
 
 
