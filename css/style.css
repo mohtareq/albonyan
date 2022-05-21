@@ -27,7 +27,8 @@ body {
 .item {
     position: relative;
     left: 100px;
-    padding: 0 20px 0 0;
+    top: 0;
+    padding: 0 18px 0 0;
 }
 
 .link {
@@ -38,6 +39,7 @@ body {
 .link:hover,
 .link:focus {
     color: #F07F1A;
+    border-top: 2px solid #F07F1A;
 }
 
 .intro-sec {
@@ -48,7 +50,7 @@ body {
 
 .intro-info {
     position: relative;
-    top: 200px;
+    top: 180px;
     color: #434343;    
 }
 
@@ -105,10 +107,9 @@ body {
 .social-div {
     position: relative;
     top: 220px;
-    right: 100px;
+    right: 110px;
     display: grid;
-    height: 250px;
-    text-align: left;
+    height: 230px;
 }
 
 .icon {
@@ -116,11 +117,11 @@ body {
     width: 35px;
     height: 35px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     background-color: #22274E;
     border-radius: 50%;
     text-align: center;
-    padding-top: 14%;
+    padding: 10px 0 0 0.5px;
 }
 
 .icon:hover {
