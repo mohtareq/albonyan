@@ -445,3 +445,55 @@ body {
     color: #F07F1A;;
 
 }
+
+.opinions-sec {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 100px;
+}
+
+.opinions-info {
+    text-align: right;
+}
+
+.opinions-one {
+    font-size: 26px;
+    color: #22274E;
+    width: 120px;
+    border-bottom: 2px solid #22274E;
+    text-align: right;
+}
+
+
+.opinions-box {
+    box-shadow: 0px 6px 35px #0000001A;
+    border-radius: 60px;
+    height: 100%;
+    margin: 30px;
+    background: #fff;
+}
+
+.opinions-topic {
+    text-align: justify;
+    padding: 30px;
+}
+
+.img-person { 
+    padding-right: 30px;
+}
+
+.opinions-info {
+    margin-right: 110px;
+}
+
+.opinions-name { 
+    font-size: 16px;
+    color: #413AD6;
+}
+
+.opinions-position { 
+    font-size: 16px;
+    color: #B9C4D1;
+
+}
