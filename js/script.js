@@ -8,7 +8,7 @@ $(function() {
         loop: true,
         autoplayHoverPause: true,
         nav: true,
-        dots: true,
+        dots: false,
         navText: ['<i class="fa fa-angle-right right-icon"></i>', '<i class="fa fa-angle-left"></i>'],
         responsive : {
             // breakpoint from 0 up
@@ -22,7 +22,6 @@ $(function() {
         }
     });
 });
-
 /*
 $(function() {
     owlServices.on('mousewheel', '.owl-stage', function (e) {
@@ -34,5 +33,29 @@ $(function() {
         e.preventDefault();
     });
 });
-
 */
+
+var owlOpinions = $('#opinions-slider');
+$(function() {
+    owlOpinions.owlCarousel({
+        rtl: true,
+        items: 2,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fa fa-angle-right"></i>', '<i class="fa fa-angle-left"></i>'],
+        responsive : {
+            // breakpoint from 0 up
+            0 : {
+                items: 1
+            },
+            // breakpoint from 480 up
+            991 : {
+                items: 2
+            }
+        }
+    });
+});
