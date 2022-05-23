@@ -371,16 +371,14 @@ body {
     border-radius: 10px;
     text-align: center;
     margin: auto 0;
-    padding: 3px;
+    padding: 4px;
 }
 
-.button-text-note {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
+.anchor-note {
+    font-size: 18px;
 }
 
-.button-text-note:hover {
+.anchor-note:hover {
     color: #22274E;
 }
 
@@ -454,6 +452,7 @@ body {
 
 .opinions-info {
     text-align: right;
+    padding-bottom: 30px;
 }
 
 .opinions-one {
@@ -509,6 +508,29 @@ body {
     justify-content: right;
 }
 
+.email-div {
+    width: 50%;
+    margin: auto 20px;
+}
+
+.email-placeholder {
+    background: #3f4366;
+    border: 2px solid #FFFFFF;
+    border-left: none;
+    text-align: right;
+    border-radius: 25px;
+    margin: auto;
+    color: #fff;
+}
+
+.email-send {
+    background-color: #fff;
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+    color: #413AD6;
+}
+
+
 .footer-h {
     font-size: 18px;
     border-bottom: 2px solid #b4b6c5;
@@ -525,6 +547,17 @@ body {
 .footer-p:hover {
     color: #F07F1A;
     cursor: pointer;
+}
+
+.social-footer {
+    display: flex;
+}
+
+.footer-icon {
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    background: #3f4366;
 }
 
 .footer-end {
