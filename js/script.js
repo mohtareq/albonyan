@@ -2,14 +2,14 @@ var owlServices = $('#service-slider');
 $(function() {
     owlServices.owlCarousel({
         rtl: true,
-        items: 2,
-        autoplay: false,
+        items: 3,
+        autoplay: true,
         smartSpeed: 700,
         loop: true,
         autoplayHoverPause: true,
         nav: true,
-        dots: false,
-        navText: ['<i class="fa fa-angle-right"></i>', '<i class="fa fa-angle-left"></i>'],
+        dots: true,
+        navText: ['<i class="fa fa-angle-right right-icon"></i>', '<i class="fa fa-angle-left"></i>'],
         responsive : {
             // breakpoint from 0 up
             0 : {
@@ -17,12 +17,13 @@ $(function() {
             },
             // breakpoint from 480 up
             991 : {
-                items: 2
+                items: 3
             }
         }
     });
 });
 
+/*
 $(function() {
     owlServices.on('mousewheel', '.owl-stage', function (e) {
         if (e.deltaY>0) {
@@ -33,3 +34,5 @@ $(function() {
         e.preventDefault();
     });
 });
+
+*/
