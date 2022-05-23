@@ -7,9 +7,8 @@ $(function() {
         smartSpeed: 700,
         loop: true,
         autoplayHoverPause: true,
-        nav: true,
-        dots: false,
-        navText: ['<i class="fa fa-angle-right right-icon"></i>', '<i class="fa fa-angle-left"></i>'],
+        nav: false,
+        dots: true,
         responsive : {
             // breakpoint from 0 up
             0 : {
@@ -22,6 +21,40 @@ $(function() {
         }
     });
 });
+
+$('#left-ser').click(function() {
+    owlServices.trigger('next.owl.carousel');
+})
+// Go to the previous item
+$('#right-ser').click(function() {
+    owlServices.trigger('prev.owl.carousel');
+})
+
+var owlWorks = $('#works-slider');
+$(function() {
+    owlWorks.owlCarousel({
+        rtl: true,
+        items: 3,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: false,
+        dots: true,
+        responsive : {
+            // breakpoint from 0 up
+            0 : {
+                items: 1
+            },
+            // breakpoint from 480 up
+            991 : {
+                items: 3
+            }
+        }
+    });
+});
+
+
 /*
 $(function() {
     owlServices.on('mousewheel', '.owl-stage', function (e) {

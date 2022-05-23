@@ -221,6 +221,31 @@ body {
     text-align: center;
 }
 
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span {
+    width: 30px;
+    height: 5px;
+    margin-top: 20px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:active span {
+    background: #22274E;
+}
+
+.div-icon-right {
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    margin-top: 15%;
+    right: 50px;
+}
+
+.div-icon-left {
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    margin-top: 15%;
+    left: 50px;
+}
 
 .package-sec {
     width: 100%;
