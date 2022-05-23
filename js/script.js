@@ -44,9 +44,8 @@ $(function() {
         smartSpeed: 700,
         loop: true,
         autoplayHoverPause: true,
-        nav: true,
+        nav: false,
         dots: false,
-        navText: ['<i class="fa fa-angle-right"></i>', '<i class="fa fa-angle-left"></i>'],
         responsive : {
             // breakpoint from 0 up
             0 : {
@@ -59,3 +58,11 @@ $(function() {
         }
     });
 });
+
+$('#next-opi').click(function() {
+    owlOpinions.trigger('next.owl.carousel');
+})
+// Go to the previous item
+$('#back-opi').click(function() {
+    owlOpinions.trigger('prev.owl.carousel');
+})
