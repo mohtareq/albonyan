@@ -1,3 +1,5 @@
+@import url('../Font ExpoArabic/ExpoArabic-Medium.ttf');
+
 *,
 *::before,
 *::after {
@@ -7,35 +9,23 @@
 }
 
 body {
-    font-family: Expo Arabic;
+    font-family: "Expo Arabic";
     background-color: #F3F6F8;
     width: 100%;
-
 }
 
 .nav-manual {
     position: absolute;
-    top: 0;
     left: 0;
     width: 100%;
+    left: 0;
     z-index: 1;
-}
-
-.logo-a {
-    position: relative;
-    right: 120px;
-}
-
-.item {
-    position: relative;
-    left: 100px;
-    top: 0;
-    padding: 0 18px 0 0;
 }
 
 .link {
     color: #434343;    
-    font-size: 18px; 
+    font-size: 21x; 
+    margin-left: 30px;
 }
 
 .link:hover,
@@ -56,31 +46,32 @@ body {
 }
 
 .info-one {
-    font-size: 36px;
-    color: #22274E;;
+    text-align: right;
+    font-size: 46px;
+    color: #22274E;
 }
 
 .info-two,
 .about-two {
-    padding-top: 20px;
-    font-size: 21px;
+    padding: 20px 0;
+    font-size: 24px;
 }
 
-.button-header,
-.button-about {
-    margin-top: 30px;
-    background-color: #22274E;
-    width: 230px;
-    height: 60px;
-    border-radius: 25px;
-    text-align:center;
-    padding-top: 7px;
+.button-header {
+    width: 240px;
+    height: 80px;
+    background: transparent linear-gradient(248deg, #22274E 0%, #414776 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #1F7DA129;
+    border-radius: 30px;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
 }
 
 .button-text {
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 .button-text:hover {
@@ -89,44 +80,50 @@ body {
 
 .img-header {
     position: relative;
-    text-align: left;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
 }
 
 .img-one {
-    width: 390px;
-    height: 390px;
-    margin: -100px 100px 0 0;
+    width: 552px;
+    height: 650px;
+    margin-top: -150px;
+    z-index: 3;
 }
 
 .back-color-header {
+    position: absolute;
+    width: 460px;
+    height: 480px;
     background: #F07F1A;
-    width: 300px;
-    height: 300px;
     border-radius: 50%;
-    margin-top: -260px;
-    margin-right: 140px;
-    z-index: -1;
+    z-index: 1;
 }
 
 .social-div {
-    text-align: left;
-    margin-top: 20px;
+    position: relative;
+    display: grid;
+    justify-content: left;
+    align-items: center;  
+    margin-left: -100px;
+    text-decoration: none !important;
 }
 
 .icon {
     color: white;
     width: 35px;
     height: 35px;
-    text-decoration: none;
-    font-size: 15px;
+    text-decoration: none !important;
     background-color: #22274E;
     border-radius: 50%;
-    text-align: center;
-    padding: 10px 0 0 0.5px;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
 }
 
 .icon:hover {
-    color: white;
+    color: #F07F1A;
 }
 
 .about-sec {
@@ -134,39 +131,55 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-}
-
-.about-info {
-    color: #434343; 
-    padding-top: 30px;
+    justify-content: center;  
 }
 
 .about-one {
-    font-size: 30px;
+    font-size: 46px;
     color: #22274E;
-    border-bottom: 3px solid #22274E;
-    width: 110px;
+    border-bottom: 4px solid #22274E;
+    width: 200px;
+}
+
+.about-two {
+    color: #434343; 
+    font-size: 24;
+    line-height: 70px;
+}
+
+.button-about {
+    width: 240px;
+    height: 80px;
+    background: transparent linear-gradient(248deg, #22274E 0%, #414776 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #1F7DA129;
+    border-radius: 30px;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
 }
 
 .img-about {
     position: relative;
-    text-align: left;
+    display: flex;  
+    justify-content: left;  
+    align-items: center;  
 }
 
 .img-two {
-    width: 330px;
-    height: 330px;
-    margin-right: 120px;
+    width: 480px;
+    height: 570px;
+    margin-top: -50px;
+    justify-content: left;  
+    z-index: 3;
 }
 
 .back-color-about {
+    position: absolute;
+    width: 450px;
+    height: 450px;
     background: #F07F1A;
-    width: 300px;
-    height: 300px;
-    border-radius: 25%;
-    margin-top: -280px;
-    margin-right: 150px;
-    z-index: -1;
+    border-radius: 20%;
+    z-index: 1;
 }
 
 .services-sec {
@@ -174,7 +187,6 @@ body {
     height: 100vh;
     align-items: center;
     background: #bcbfc22a;
-    padding: 50px 0;
     display: flex;
     align-items: center;
 }
@@ -184,41 +196,43 @@ body {
 }
 
 .services-one {
-    font-size: 20px;
+    font-size: 46px;
     color: #22274E;
-    border-bottom: 3px solid #22274E;
-    width: 150px;
-    margin: 20px auto;
+    border-bottom: 4px solid #22274E;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 .services-two {
-    font-size: 16px;
-    width: 75%;
+    font-size: 26px;
+    width: 80%;
     margin: auto;
-    padding: 10px;
-}
-
-.boxes {
-    padding: 10px 0;
+    line-height: 70px;
 }
 
 .box {
-    margin: auto;
-    padding: 15px;
+    padding: 10px;
     border: 1px dashed #22274E;
     border-radius: 10%;  
-    box-shadow: 0px 6px 36px #0000001A;
+    box-shadow: 1px 6px 36px #0000001A;
     opacity: 1;
-    width: 75%;
     background: #fff;
+    margin: 50px 50px;
 }
 
 .service-topic {
+    font-size: 26px;
+}
+
+.service-sub-topic {
     font-size: 20px;
+    line-height: 40px;
 }
 
 .service-icons {
     text-align: center;
+    justify-content: center;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span {
@@ -253,7 +267,7 @@ body {
     align-items: center;
     display: flex;
     align-items: center;
-    margin: 150px auto;
+    margin: auto;
 }
 
 .package-info {
@@ -261,48 +275,57 @@ body {
 }
 
 .package-one {
-    font-size: 22px;
+    font-size: 46px;
     color: #22274E;
-    border-bottom: 3px solid #22274E;
-    width: 120px;
-    margin: 20px auto;
+    border-bottom: 4px solid #22274E;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .package-two {
-    font-size: 18px;
-    width: 75%;
-    margin: 40px auto;
+    font-size: 26px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
 }
 
 .package-box {
     box-shadow: 0px 3px 6px#1F7DA129;
     border-radius: 55px;
     opacity: 1;
-    padding: 15px;
+    padding: 10px;
+    margin: auto 20px;
     background: #bcbfc22a;
+    border: 2px dashed #bcbfc22a;
 }
 
 .package-topic {
-    font-size: 18px;
+    font-size: 26px;
 }
 
 .salary {
     color: #F07F1A;
+    font-size: 24px;
 }
 
 .button-package {
     background-color: #22274E;
-    width: 120px;
-    height: 35px;
+    width: 220px;
+    height: 60px;
     border-radius: 15px;
-    text-align: center;
-    margin: auto auto 50px auto;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;  
 }
 
 .i-text {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .i-text:hover {
@@ -310,7 +333,7 @@ body {
 }
 
 .package-p {
-    font-size: 14px;
+    font-size: 18px;
     text-align: right;
 }
 
@@ -320,7 +343,7 @@ body {
     align-items: center;
     background: #bcbfc22a;
     display: flex;
-    align-items: center;
+    margin: auto;
 }
 
 .works-info {
@@ -332,10 +355,10 @@ body {
 }
 
 .works-one {
-    font-size: 30px;
+    font-size: 46px;
     color: #22274E;
     border-bottom: 3px solid #22274E;
-    width: 100px;
+    width: 180px;
     margin: auto;
     margin-bottom: 20px;
 }
