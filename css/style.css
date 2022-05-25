@@ -280,14 +280,12 @@ body {
     border-bottom: 4px solid #22274E;
     width: 200px;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 .package-two {
     font-size: 26px;
     width: 80%;
-    margin: auto;
-    margin-bottom: 25px;
+    margin: 40px auto;
 }
 
 .package-box {
@@ -350,50 +348,42 @@ body {
     text-align: center;
 }
 
-.works-sec {
-    padding: 200px;
-}
-
 .works-one {
     font-size: 46px;
     color: #22274E;
-    border-bottom: 3px solid #22274E;
-    width: 180px;
+    border-bottom: 4px solid #22274E;
+    width: 200px;
     margin: auto;
-    margin-bottom: 20px;
 }
 
 .works-two {
-    font-size: 20px;
-    width: 75%;
-    margin: auto;
+    font-size: 26px;
+    width: 80%;
+    margin: 80px auto;
 }
 
 .works-imgs {
-    padding: 30px;
-}
-
-.img-work-center {
-    margin-top: -10px;
+    padding: 60px 170px 40px 170px;
 }
 
 .button-works {
     margin: auto;
     background-color: #22274E;
-    width: 200px;
-    height: 60px;
+    width: 300px;
+    height: 80px;
     border-radius: 25px;
     text-align:center;
-    padding: 7px;
+    display: flex;
+    justify-content: center;  
 }
 
-.dash-div {
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.dash-icon {
-    width: 40px;
+.wroks-i-text {
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .note-sec {
