@@ -399,7 +399,6 @@ body {
     align-items: center;
 }
 
-/*
 .note-sec {
     width: 100%;
     height: 100vh;
@@ -662,7 +661,6 @@ body {
     color: #fff;
 }
 
-*/
 
 @media (max-width: 500px) {
     .logo-navbar img {
