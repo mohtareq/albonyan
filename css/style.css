@@ -219,7 +219,6 @@ body {
     z-index: 1;
 }
 
-
 .services-sec {
     background: #bcbfc22a;
     width: 100%;
@@ -668,7 +667,295 @@ body {
 }
 
 
-@media (max-width: 500px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+    .link {
+        color: #434343;    
+        font-size: 12px; 
+    }
+    
+    .link:hover,
+    .link:focus {
+        color: #F07F1A;
+        border-top: 2px solid #F07F1A;
+    }
+    
+    .logo-navbar img {
+        width: 100px;
+    }
+    
+    .items {
+        margin: auto;
+    }
+    
+    .items li {
+        padding: 0 5px;
+    }
+    
+    .icon-burger {
+        display: none;
+    }
+    
+    .mylinks {
+        display: none;
+    }
+
+    .info-one {
+        font-size: 20px;
+    }
+    
+    .info-two {
+        padding: 20px 0;
+        font-size: 16px;
+        text-align: justify;
+    }
+    
+    .button-text {
+        font-size: 14px;
+    }
+
+    .img-one {
+        width: 350px;
+        height: 400px;
+    }
+    
+    .back-color-header {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        background: #F07F1A;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    .about-one {
+        font-size: 24px;
+        border-bottom: 2px solid #22274E;
+        width: 100px;
+    }
+    
+    .about-two {
+        font-size: 16px;
+        text-align: justify;
+    }
+    
+    .about-arrow {
+        width: 16px;
+    }
+
+    
+    .img-two {
+        width: 250px;
+        height: 300px;
+    }
+    
+    .back-color-about {
+        width: 250px;
+        height: 240px;
+
+    }
+    
+    .services-one {
+        font-size: 20px;
+        border-bottom: 2px solid #22274E;
+        width: 100px;
+    }
+    
+    .services-two {
+        font-size: 16px;
+    }
+
+    .package-one {
+        font-size: 20px;
+        border-bottom: 2px solid #22274E;
+        width: 100px;
+    }
+    
+    .package-two {
+        font-size: 16px;
+    }
+    
+
+    .package-topic {
+        font-size: 14px;
+    }
+    
+    .salary {
+        font-size: 14px;
+    }
+    
+    .button-package {
+        width: 100px;
+        height: 30px;
+    }
+    
+    .i-text {
+        font-size: 12px;
+    }
+
+    .package-p {
+        font-size: 10px;
+        text-align: center;
+    } 
+    
+    .note-one {
+        font-size: 20px;
+    }
+    
+    .note-two {
+        font-size: 14px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    
+    .button-note {
+        width: 150px;
+
+    }
+    
+    .note-i-text {
+        font-size: 16px;
+    }
+    
+    .img-note{
+        margin-top: -50%;
+        margin-right: 60%;
+        width: 250px;
+        height: 250px;
+    }
+
+    .blogs-one {
+        font-size: 20px;
+        border-bottom: 2px solid #22274E;
+        width: 100px;
+    }
+    
+    .blogs-two {
+        font-size: 16px;
+    }
+
+    
+    .blogs-topic {
+        font-size: 14px;
+    }
+
+    .button-text-note {
+        font-size: 14px;
+    }
+
+    .bloc-icon {
+        width: 15px;
+        margin-right: 5px;
+    }
+
+
+    .opinions-sec {
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .opinions-info {
+        padding-bottom: 80px;
+    }
+    
+    .opi-icon {
+        width: 20px;
+        margin: auto;
+    }
+    
+    .opinions-one {
+        font-size: 24px;
+        border-bottom: 2px solid #22274E;
+        width: 150px;
+    }
+    
+    .opinions-box {
+        margin: auto;
+        padding: 30px;
+        height: 250px;
+        width: 400px;
+    }
+    
+    .opinions-topic {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .star-div {
+        width: 80px;
+    }
+    
+    .person-image {
+        width: 50px;
+        height: 50px;
+        margin-left: 30px;
+    }
+    
+    .opinions-name { 
+        font-size: 12px;
+    }
+    
+    .opinions-position { 
+        font-size: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
     .logo-navbar img {
         width: 100px;
     }
@@ -990,7 +1277,7 @@ body {
     }
     
     .opinions-info {
-        padding: 25px;
+        padding: 0;
     }
     
     .opi-icon {
@@ -1010,7 +1297,7 @@ body {
         background: #fff;
         margin: 20px;
         padding: 30px;
-        height: 300px;
+        height: 230px;
     }
     
     .opinions-topic {
