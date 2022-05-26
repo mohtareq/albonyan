@@ -825,4 +825,175 @@ body {
         font-size: 14px;
 
     }
+
+    .all-box {
+        padding: 10px;
+    }
+    
+    .note-one {
+        font-size: 14px;
+    }
+    
+    .note-two {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    
+    .button-note {
+        width: 80px;
+        height: 30px;
+    }
+    
+    .note-i-text {
+        font-size: 12px;
+    }
+    
+    .img-note{
+        margin-top: -65%;
+        margin-right: 60%;
+        width: 160px;
+        height: 160px;
+    }
+    
+    .blogs-sec {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .blogs-info {
+        text-align: center;
+    }
+    
+    .blogs-one {
+        font-size: 20px;
+        color: #22274E;
+        border-bottom: 4px solid #22274E;
+        width: 200px;
+        margin: auto;
+        padding-top: 10px;
+    }
+    
+    .blogs-two {
+        font-size: 16px;
+    }
+    
+    .blogs-box {
+        box-shadow: 0px 3px 6px#fff;
+        border-radius: 0 0px 20px 20px;
+        padding: 10px;
+        background: #fff;
+        margin-bottom: 50px;
+    }
+
+    .blogs-mobile {
+        display: contents;
+        width: 100%;
+    }
+
+    .blogs-mobile col {
+        margin: auto;
+    }
+    
+    .blogs-topic {
+        font-size: 16px;
+    }
+    
+    .button-blogs {
+        border-radius: 10px;
+    }
+    
+    .button-text-note {
+        font-size: 16px;        
+    }
+    
+    .opinions-info {
+        padding-bottom: 30px;
+    }
+    
+    .opi-icon {
+        width: 15px;
+        height: 15px;
+        margin: 10px auto;
+    }
+    
+    .opinions-one {
+        font-size: 20px;
+        width: 150px;
+    }
+    
+    .opinions-box {
+        margin: auto;
+        padding: 20px;
+        height: 280px;
+    }
+    
+    .opinions-topic {
+        font-size: 14px;
+    }
+
+    .star-div {
+        width: 80px;
+    }
+    
+    .opinions-name { 
+        font-size: 15px;
+    }
+    
+    .opinions-position { 
+        font-size: 14px;
+    }
+
+    .mobile-style {
+        display: flow-root;
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 100px;
+    }
+    
+    .footer-para {
+        margin: auto;
+        font-size: 12px;
+        line-height: 30px;
+    }
+    
+    .email-div {
+        width: 200px;
+        margin: auto;
+    }
+    
+    .email-placeholder {
+        border: 1px #FFFFFF;
+        border-left: none;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .email-send {
+        border-radius: 10px;
+        border: 1px #FFFFFF;
+    }
+    
+    .footer-h {
+        font-size: 12px;
+        border-bottom: 1px #b4b6c5;
+    }
+    
+    .footer-p {
+        display: none;
+    }
+    
+    .social-footer {
+        display: flex;
+    }
+    
+    .footer-icon {
+        padding: 10px;
+        margin-left: 10px;
+        text-align: center;
+        background: #3f4366;
+    }
+
 }
