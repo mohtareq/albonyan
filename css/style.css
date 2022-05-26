@@ -48,6 +48,10 @@ body {
     display: none;
 }
 
+.mylinks {
+    display: none;
+}
+
 .intro {
     background: #bcbfc22a;
 }
