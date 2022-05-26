@@ -823,6 +823,115 @@ body {
     
     .wroks-i-text {
         font-size: 14px;
-
     }
+
+    .blogs-sec {
+        height: auto;
+    }
+    
+    .blog-row {
+        display: contents !important;
+    }
+
+    .blog-son {
+        margin: 25px auto;
+    }
+
+    .blogs-info {
+        text-align: center;
+    }
+    
+    .blogs-one {
+        font-size: 20px;
+        color: #22274E;
+        border-bottom: 4px solid #22274E;
+        width: 200px;
+        margin: auto;
+        padding-top: 10px;
+    }
+    
+    .blogs-two {
+        padding: 20px 0;
+        font-size: 16px;
+    }
+    
+    .blogs-box {
+        box-shadow: 0px 3px 6px#fff;
+        border-radius: 0 0px 20px 20px;
+        padding: 10px;
+        background: #fff;
+    }
+    
+    .blogs-topic {
+        text-align: justify;
+        font-size: 16px;
+    }
+    
+    .button-blogs {
+        border-radius: 10px;
+        text-align: right;
+    }
+    
+    .button-text-note {
+        text-decoration: none;
+        font-size: 12px;
+        color: #22274E;
+        background: transparent;
+        border: 0;
+    }
+    
+    .button-text-note:hover {
+        color:#F07F1A;
+        background: transparent;
+    }
+    
+    .bloc-icon {
+        width: 10px;
+        margin-right: 10px;
+    }
+    
+    .opinions-info {
+        padding-bottom: 20px;
+    }
+    
+    .opi-icon {
+        width: 20px;
+        height: 20px;
+        margin: 20px auto;
+    }
+    
+    .opinions-one {
+        font-size: 20px;
+        color: #22274E;
+        border-bottom: 4px solid #22274E;
+        width: 120px;
+    }
+    
+    .opinions-box {
+        box-shadow: 1px 6px 36px #0000001A;    
+        border-radius: 60px;
+        background: #fff;
+        margin: auto 70px;
+        padding: 30px;
+        height: 300px;
+    }
+    
+    .opinions-topic {
+        font-size: 12px;
+        padding: 10px 0 0 0;
+    }
+    
+    .star-div {
+        width: 90px;
+    }
+  
+    .opinions-name { 
+        font-size: 14px;
+        color: #413AD6;
+    }
+    
+    .opinions-position { 
+        font-size: 13px;
+        color: #B9C4D1;
+    }       
 }
