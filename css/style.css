@@ -283,7 +283,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 50px auto;
-
 }
 
 .package-info {
@@ -771,15 +770,14 @@ body {
         font-size: 15px;
     }
 
-    .table {
-        margin: 20px auto;
+    .package-box {
+        width: 80%;
+        padding: 10px;
+        margin: 10px auto;
     }
 
-    .package-box {
-        width: 100%;
-        padding: 10px;
-        margin: auto;
-        display: inline-table;
+    .mobile-table {
+        display: contents;
     }
 
     .package-topic {
@@ -806,6 +804,7 @@ body {
     .package-p {
         font-size: 12px;
         line-height: 0px;
+        padding: 5px;
     }
 
 
