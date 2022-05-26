@@ -44,6 +44,8 @@ body {
     padding: 0 10px;
 }
 
+
+
 .intro {
     background: #bcbfc22a;
 }
@@ -210,6 +212,7 @@ body {
     border-radius: 20%;
     z-index: 1;
 }
+
 
 .services-sec {
     background: #bcbfc22a;
@@ -397,7 +400,7 @@ body {
     align-items: center;
 }
 
-
+/*
 .note-sec {
     width: 100%;
     height: 100vh;
@@ -660,3 +663,169 @@ body {
     color: #fff;
 }
 
+*/
+
+@media (max-width: 500px) {
+    .logo-navbar img {
+        width: 100px;
+    }
+
+    .items {
+        display: none;
+    }
+
+    .right-intro {
+        width: 90%;
+    }
+
+    .info-one {
+        font-size: 20px;
+    }
+
+    .info-two {
+        font-size: 16px;
+    }
+
+
+    .img-header {
+        display: none;
+    }
+
+    .social-div ul {
+        display: none;
+    }
+
+    .about-one {
+        font-size: 20px;
+        border-bottom: 2px solid #22274E;
+    }
+
+    .about-two {
+        font-size: 16px;
+    }
+
+    .button-text {
+        font-size: 14px;
+    }
+
+    .about-arrow {
+        width: 15px;
+    }
+
+    .img-about {
+        display: none;
+    }
+
+    .services-sec {
+        display: flow-root;
+        height: auto;
+    }
+    
+    .services-info {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .services-one {
+        font-size: 20px;
+    }
+    
+    .services-two {
+        font-size: 16px;
+    }
+    
+    .ico-box {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+    }
+    
+    .box {
+        padding: 5px;
+        margin: auto 5px;
+        height: 160px;
+    }
+    
+    .service-topic {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    .service-sub-topic {
+        display: none;
+    }
+    
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span {
+        width: 10px;
+    }
+        
+    .package-sec {
+        margin: 10px auto;
+    }
+
+    .package-one {
+        font-size: 20px;
+    }
+
+    .package-two {
+        font-size: 15px;
+    }
+
+    .table {
+        margin: 20px auto;
+    }
+
+    .package-box {
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+        display: inline-table;
+    }
+
+    .package-topic {
+        font-size: 16px;
+    }
+
+    .salary {
+        font-size: 16px;
+    }
+
+    .button-package {
+        width: 100px;
+        height: 30px;
+    }
+
+    .i-text {
+        font-size: 14px;
+    }
+
+    .i-text:hover {
+        color: #F07F1A;
+    }
+
+    .package-p {
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+
+    .works-one {
+        font-size: 20px;
+        margin: 20px auto;
+    }
+    
+    .works-two {
+        font-size: 16px;
+    }
+    
+    .button-works {
+        width: 150px;
+        height: 40px;
+
+    }
+    
+    .wroks-i-text {
+        font-size: 14px;
+
+    }
+}
