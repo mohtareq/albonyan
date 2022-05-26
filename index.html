@@ -11,6 +11,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
 
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
@@ -49,7 +50,16 @@
                         <a class="nav-link link" href="#contact">توصل معنا</a>
                     </li>
                 </ul>
-          </div>
+            </div>
+            <div class="mylinks" id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+              </div>
+              <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+              <a class="icon-burger" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
         </div>
     </nav>
     
@@ -785,11 +795,10 @@
     </section>
 
     <!-- Footer -->
-
     <footer class="text-white footer">
         <section class="container p-4 pb-0">
             <div class="row">
-                <div class="col-md-4 col-sm-12 mx-auto">
+                <div class="col-md-4 col-sm-12">
                     <div class="row images-wrapper">
                         <div class="col footer-img">
                             <img src="./img/footer-logo.svg" class="img-fluid footer-logo" alt="img">
@@ -836,7 +845,6 @@
         </div> 
     </footer>
 
-    
     <!-- End of containers -->
 
 

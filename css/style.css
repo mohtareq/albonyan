@@ -44,7 +44,9 @@ body {
     padding: 0 10px;
 }
 
-
+.icon-burger {
+    display: none;
+}
 
 .intro {
     background: #bcbfc22a;
@@ -669,6 +671,15 @@ body {
 
     .items {
         display: none;
+    }
+
+    .mylinks {
+        display: none;
+    }
+
+    .icon-burger {
+        color: #22274E;
+        display: block;
     }
 
     .right-intro {
