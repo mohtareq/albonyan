@@ -692,7 +692,7 @@ body {
 
     .info-one {
         font-size: 20px;
-        margin-top: 150px;
+        margin-top: 100px;
     }
 
     .info-two {
@@ -704,12 +704,12 @@ body {
         display: flex;  
         justify-content: center;  
         align-items: center;  
-        margin: 100px;
+        margin: auto 100px;
     }
 
     .img-one {
         width: 340px;
-        height: 340px;
+        height: 370px;
         z-index: 2;
     }
 
@@ -733,6 +733,7 @@ body {
 
     .about-two {
         font-size: 16px;
+        text-align: justify;
     }
 
     .button-text {
@@ -745,20 +746,20 @@ body {
 
 
     .img-about {
-        margin: auto 30px;
+        margin: auto;
     }
     
     .img-two {
-        width: 300px;
-        height: 400px;
-        justify-content: left;  
+        width: 250px;
+        height: 300px;
+        justify-content: center;  
         z-index: 2;
     }
     
     .back-color-about {
         position: absolute;
-        width: 300px;
-        height: 300px;
+        width: 270px;
+        height: 270px;
         background: #F07F1A;
         border-radius: 20%;
         z-index: 1;
@@ -779,19 +780,21 @@ body {
     }
     
     .services-two {
-        font-size: 16px;
+        font-size: 14px;
+        text-align: justify;
     }
     
     .ico-box {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
         margin: auto;
     }
     
     .box {
         padding: 5px;
-        margin: auto 5px;
-        height: 160px;
+        margin: auto;
+        height: auto;
+        width: 50%;
     }
     
     .service-topic {
@@ -817,6 +820,8 @@ body {
 
     .package-two {
         font-size: 15px;
+        text-align: justify;
+
     }
 
     .package-box {
@@ -856,7 +861,6 @@ body {
         padding: 5px;
     }
 
-
     .works-one {
         font-size: 20px;
         margin: 20px auto;
@@ -869,14 +873,12 @@ body {
     .button-works {
         width: 150px;
         height: 40px;
-
     }
     
     .wroks-i-text {
-        font-size: 14px;
+        font-size: 10px;
     }
 
-    
     .all-box {
         padding: 5px;
     }
@@ -977,14 +979,17 @@ body {
         margin-right: 10px;
     }
     
+    .opinions-sec {
+        height: auto;
+        margin: 30px auto;
+    }
+    
     .opinions-info {
-        padding-bottom: 20px;
+        padding: 25px;
     }
     
     .opi-icon {
-        width: 20px;
-        height: 20px;
-        margin: 20px auto;
+        display: none;
     }
     
     .opinions-one {
@@ -998,7 +1003,7 @@ body {
         box-shadow: 1px 6px 36px #0000001A;    
         border-radius: 60px;
         background: #fff;
-        margin: auto 70px;
+        margin: 20px;
         padding: 30px;
         height: 300px;
     }
