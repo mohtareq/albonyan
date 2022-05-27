@@ -904,7 +904,9 @@ body {
         margin: auto;
         padding: 30px;
         height: 250px;
-        width: 400px;
+        width: 90%;
+        display: table-cell;
+
     }
     
     .opinions-topic {

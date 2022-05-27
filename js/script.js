@@ -78,7 +78,7 @@ var owlOpinions = $('#opinions-slider');
 $(function() {
     owlOpinions.owlCarousel({
         rtl: true,
-        items: 2,
+        items: 1,
         autoplay: true,
         smartSpeed: 700,
         loop: true,
