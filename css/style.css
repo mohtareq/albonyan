@@ -938,7 +938,85 @@ body {
 
 @media (max-width: 768px) {
 
+    .logo-navbar img {
+        width: 130px;
+    }
 
+    .items {
+        display: none;
+    }
+
+    .mylinks {
+        display: none;
+    }
+
+    .icon-burger {
+        color: #22274E;
+        display: block;
+    }
+    
+    
+    .info-one {
+        font-size: 16px;
+    }
+    
+    .info-two {
+        font-size: 14px;
+    }
+    
+    .button-text {
+        font-size: 12px;
+    }
+
+    .img-one {
+        width: 220px;
+        height: 240px;
+        margin-top: -50px;
+    }
+    
+    .back-color-header {
+        width: 180px;
+        height: 180px;
+    }
+
+    .img-about {
+        justify-content: center;  
+    }
+    
+    .img-two {
+        width: 350px;
+        height: 450px;
+        justify-content: left;  
+        z-index: 2;
+    }
+    
+    .back-color-about {
+        position: absolute;
+        width: 340px;
+        height: 340px;
+        background: #F07F1A;
+        border-radius: 20%;
+        z-index: 1;
+    }
+    
+
+    .box {
+        padding: 10px;
+        border: 1px dashed #22274E;
+        border-radius: 10%;  
+        box-shadow: 1px 6px 36px #0000001A;
+        opacity: 1;
+        background: #fff;
+        margin: auto 20px;
+    }
+    
+    .service-topic {
+        font-size: 15px;
+    }
+    
+    .service-sub-topic {
+        font-size: 10px;
+    }    
 }
 
 
